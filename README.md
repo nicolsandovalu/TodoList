@@ -1,7 +1,6 @@
 # 📱 TodoList App - Kotlin
 
-![App Screenshot](https://i.imgur.com/TU_IMAGEN.jpg)  
-*Aplicación de lista de tareas con funciones CRUD, filtrado y eliminación por gestos*
+*Aplicación de lista de tareas con funciones CRUD, filtrado y eliminación*
 
 ## 🚀 Características
 - ✅ **Gestión completa** de tareas (Crear, Leer, Actualizar, Eliminar)
