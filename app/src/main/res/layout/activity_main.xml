@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etNuevaTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="✏️ Ingresa una nueva tarea: "
+        android:inputType="textCapSentences"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/edittext_background"/>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="➕ Agregar tarea"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:paddingVertical="12dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerFiltro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:spinnerMode="dropdown"/>
+
+
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📝 Tareas pendientes: 0"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTareas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="← Desliza hacia el lado para eliminar la tarea"
+        android:textColor="#888"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+
+</LinearLayout>

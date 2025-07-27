@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="colorPrimary">#AC8BFD</color>  <!-- Morado moderno -->
+    <color name="colorPrimaryDark">#463770</color> <!-- Variante oscura -->
+    <color name="colorAccent">#FF80A9</color>    <!-- Rosa suave como acento -->
+
+    <!-- Colores de texto -->
+    <color name="text_primary">#1C1B1F</color>   <!-- Texto oscuro -->
+    <color name="text_secondary">#49454F</color> <!-- Texto secundario -->
+    <color name="text_on_primary">#FFFFFF</color> <!-- Texto sobre fondos primarios -->
+
+    <!-- Colores de fondo -->
+    <color name="background">#FFFBFE</color>     <!-- Fondo claro principal -->
+    <color name="surface">#FFFFFF</color>       <!-- Superficies de componentes -->
+    <color name="error">#B3261E</color>         <!-- Para errores -->
+
+    <!-- Colores adicionales para UI -->
+    <color name="edittext_background">#FFFFFF</color>
+    <color name="edittext_stroke">#79747E</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="counter_text">#1C1B1F</color>
+    <color name="divider">#E7E0EC</color>
+
+    <!-- Estados -->
+    <color name="primary_pressed">#EADDFF</color>
+    <color name="surface_pressed">#F3EDF7</color>
+</resources>
